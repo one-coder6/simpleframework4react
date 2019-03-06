@@ -20,7 +20,7 @@ export default class Home extends React.PureComponent {
         const { source } = this.state;
         return <div>
             <h1>我是首页</h1>
-            <h3>副标题</h3>
+            <h3>副标题asd</h3>
             <Button onClick={this.getData}>测试一个请求</Button>
             <Button>一个按钮</Button>
             <input />
