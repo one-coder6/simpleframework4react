@@ -1,4 +1,5 @@
 import React from 'react'
+import {Button} from 'antd'
 export default class Home extends React.PureComponent {
     state = {
         source: null
@@ -20,7 +21,8 @@ export default class Home extends React.PureComponent {
         return <div>
             <h1>我是首页</h1>
             <h3>副标题</h3>
-            <button onClick={this.getData}>测试一个请求</button>
+            <Button onClick={this.getData}>测试一个请求</Button>
+            <Button>一个按钮</Button>
             <input />
             {
                 source && source.map(item => {
